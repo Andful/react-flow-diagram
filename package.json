@@ -1,0 +1,39 @@
+{
+  "name": "react-flow-diagram",
+  "version": "0.0.1",
+  "description": "Made with create-react-library",
+  "author": "Andrea Nardi",
+  "license": "MIT",
+  "repository": "Andful/script-editor-library",
+  "main": "src/index.ts",
+  "module": "build/index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "fmt": "prettier -w src/",
+    "lint": "eslint --ext .ts,.tsx ./src",
+    "test": "echo 0"
+  },
+  "devDependencies": {
+    "@types/gl-matrix": "^3.2.0",
+    "@types/react": "^17.0.43",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "eslint": "^8.6.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2"
+  },
+  "files": [
+    "build"
+  ],
+  "peerDependencies": {
+    "react": "16.x || 17.x || 18.x"
+  },
+  "dependencies": {
+    "gl-matrix": "^3.4.3"
+  }
+}

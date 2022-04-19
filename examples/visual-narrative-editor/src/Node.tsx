@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "@emotion/styled";
-import { NodeComponentType, NodeId } from "react-flow-diagram";
+import { NodeComponentType, NodeId } from "@andful/react-flow-diagram";
 import { AppContext } from './App'
 import BaseNode, { BaseNodeProps } from './nodes/BaseNode';
 import DialogueNode, { DialogueNodeProps } from './nodes/DialogueNode'

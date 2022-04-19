@@ -1,7 +1,6 @@
 import React from "react";
-import { HandleComponentType } from "react-flow-diagram";
+import { HandleComponentType, HandleId } from "@andful/react-flow-diagram";
 import styled from "@emotion/styled";
-import { HandleId } from "react-flow-diagram/src/componentTypes";
 import { AppContext } from "./App";
 
 const Elem = styled.div`

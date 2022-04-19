@@ -1,5 +1,5 @@
 import React from 'react';
-import { NodeId, NodeComponentType } from 'react-flow-diagram';
+import { NodeId, NodeComponentType } from '@andful/react-flow-diagram';
 import { AppContext } from '../App';
 import { HandleProps } from '../Handle'
 import Label from '../Label';

@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import React from 'react';
-import { EdgeComponentType, EdgeData } from 'react-flow-diagram';
+import { EdgeComponentType, EdgeData } from '@andful/react-flow-diagram';
 import { AppContext } from './App';
 import DeleteButton from './DeleteButton';
 import { HandleProps } from './Handle'

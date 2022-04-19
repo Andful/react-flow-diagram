@@ -4,9 +4,8 @@
   "description": "A bare bone flow diagram library",
   "author": "Andrea Nardi",
   "license": "MIT",
-  "repository": "Andful/script-editor-library",
-  "main": "src/index.ts",
-  "module": "build/index.js",
+  "repository": "Andful/react-flow-diagram",
+  "main": "dist/index.js",
   "engines": {
     "node": ">=10"
   },

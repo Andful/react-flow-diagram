@@ -1,6 +1,5 @@
 import React from 'react';
-import { NodeComponentType } from 'react-flow-diagram';
-import { NodeId } from 'react-flow-diagram/src/componentTypes';
+import { NodeComponentType, NodeId } from '@andful/react-flow-diagram';
 import { HandleProps } from '../Handle'
 
 export interface BaseNodeProps {

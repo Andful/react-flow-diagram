@@ -1,4 +1,4 @@
-import { Diagram, EdgeData, HandleId, NodeId } from "react-flow-diagram";
+import { Diagram, EdgeData, HandleId, NodeId } from "@andful/react-flow-diagram";
 import React from 'react'
 import styled from "@emotion/styled"
 import Node, { NodeProps } from './Node'

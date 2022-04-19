@@ -7,3 +7,14 @@ Advantages of this library:
 * Control over transformation
 * Customizable nodes, edges and handles
 * Type safe
+
+## Examples
+
+* [visual narrative editor](TODO)
+
+## Installation
+```
+npm install @andful/react-flow-diagram
+```
+## Alternatives
+* [wbkd/react-flow](https://github.com/wbkd/react-flow)

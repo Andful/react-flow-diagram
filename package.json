@@ -1,7 +1,7 @@
 {
-  "name": "react-flow-diagram",
-  "version": "0.0.1",
-  "description": "Made with create-react-library",
+  "name": "@andful/react-flow-diagram",
+  "version": "0.0.2",
+  "description": "A bare bone flow diagram library",
   "author": "Andrea Nardi",
   "license": "MIT",
   "repository": "Andful/script-editor-library",
@@ -10,6 +10,7 @@
   "engines": {
     "node": ">=10"
   },
+  "keywords": ["react", "diagram", "graph", "network", "svg"],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",

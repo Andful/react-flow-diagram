@@ -42,30 +42,14 @@ export default function Background({offset, scale, onPointerMove}: BackgroundPro
         ref={ref}>
         <pattern
             id="pattern" 
+            x={offset[0] % (patternWidth * scale)}
+            y={offset[1] % (patternHeight * scale)}
             width={patternWidth * scale}
             height={patternHeight * scale}
-            patternUnits="userSpaceOnUse">
+            >
             <circle
-                cx={(offset[0] % (patternWidth * scale))}
-                cy={(offset[1] % (patternHeight * scale))}
-                r={2 * scale}
-                fill="lightgray"
-                />
-            <circle
-                cx={(offset[0] % (patternWidth * scale)) + patternWidth * scale}
-                cy={(offset[1] % (patternHeight * scale))}
-                r={2 * scale}
-                fill="lightgray"
-                />
-            <circle
-                cx={(offset[0] % (patternWidth * scale))}
-                cy={(offset[1] % (patternHeight * scale)) + patternHeight * scale}
-                r={2 * scale}
-                fill="lightgray"
-                />
-            <circle
-                cx={(offset[0] % (patternWidth * scale)) + patternWidth * scale}
-                cy={(offset[1] % (patternHeight * scale)) + patternHeight * scale}
+                cx={scale}
+                cy={scale}
                 r={2 * scale}
                 fill="lightgray"
                 />

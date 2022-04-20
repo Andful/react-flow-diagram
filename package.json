@@ -1,6 +1,6 @@
 {
   "name": "@andful/react-flow-diagram",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A bare bone flow diagram library",
   "author": "Andrea Nardi",
   "license": "MIT",
@@ -28,7 +28,7 @@
     "prettier": "^2.6.2"
   },
   "files": [
-    "build"
+    "dist"
   ],
   "peerDependencies": {
     "react": "16.x || 17.x || 18.x"
